@@ -1,0 +1,40 @@
+{
+  "make player move": {
+    "prefix": "player.move",
+    "body": ["player.move(x , y);"],
+    "description": "player move"
+  },
+
+  "when key pressed": {
+    "prefix": "keyDown",
+    "body": ["keyDown('direction', () =>{    } );"],
+    "description": "key pressed"
+  },
+
+  "check collide": {
+    "prefix": "player.collides",
+    "body": ["  player.collides('obj-collided', (x) => {    });"],
+    "description": "player collide"
+  },
+
+  "destroy object": {
+    "prefix": "des",
+    "body": [" destroy(obj);"],
+    "description": "destroy object"
+  },
+  "player action": {
+    "prefix": "player.action",
+    "body": [" player.action(()=>{};)"],
+    "description": "player action "
+  },
+    "camera position": {
+    "prefix": "camPos",
+    "body": ["camPos( );"],
+    "description": "camera position"
+  },
+  "action": {
+    "prefix": "action",
+    "body": ["action('Sprite_Name', (x) => {    });"],
+    "description": "action"
+  }
+}
